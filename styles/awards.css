@@ -2,7 +2,6 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: whit; */
 }
 
 .row {
@@ -23,6 +22,7 @@
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    filter: drop-shadow(0.15rem 0.3rem 0.22rem rgba(0, 0, 0, 0.2));
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -41,8 +41,4 @@
         flex: 100%;
         max-width: 100%;
     }
-}
-
-.column img {
-    filter: drop-shadow(0.15rem 0.3rem 0.22rem rgba(0, 0, 0, 0.2));
 }

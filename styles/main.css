@@ -5,21 +5,6 @@ body {
     background-color: black;
 }
 
-.splash {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2.5vh 0px;
-    width: 50%;
-}
-
-#showcase {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 75%;
-}
-
 .navigation a {
     background: rgba(238, 13, 13, 1);
     color: white;
@@ -61,6 +46,29 @@ body {
     }
 }
 
+.splash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vh 0px;
+    width: 50%;
+}
+
+.splash-v {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vh 0px;
+    width: 40%;
+}
+
+#showcase {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+}
+
 #subshowcase {
     display: flex;
     height: 100%;
@@ -68,9 +76,10 @@ body {
 
 #subshowcase-detail {
     /* min-height: 90vh; */
-    background-color: #fff;
+    background-color: white;
     flex: 4;
     padding: 2.5vh 2.5vh;
+    padding-bottom: 15vh;
 }
 
 #subshowcase-detail h1,h2 {
