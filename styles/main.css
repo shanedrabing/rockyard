@@ -6,7 +6,7 @@ body {
 }
 
 .navigation a {
-    background: red;
+    background: #7e190e;
     color: white;
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
 }
 
 .navigation a:hover {
-    background: darkred;
+    background: #3e0403;
 }
 
 .navigation ul {
