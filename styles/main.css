@@ -36,21 +36,6 @@ body {
     flex: 1;
 }
 
-@media all and (max-width: 1000px) {
-    .navigation ul {
-        flex-wrap: wrap;
-    }
-    .navigation li {
-        flex: 1 1 50%;
-    }
-}
-
-@media all and (max-width: 480px) {
-    .navigation li {
-        flex-basis: 100%;
-    }
-}
-
 .splash {
     display: block;
     margin-left: auto;
@@ -110,4 +95,25 @@ body {
     margin-right: auto;
     text-align: justify;
     width: 65%;
+}
+
+@media all and (max-width: 1000px) {
+    .navigation ul {
+        flex-wrap: wrap;
+    }
+    .navigation li {
+        flex: 1 1 50%;
+    }
+    #showcase {
+        width: 85%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .navigation li {
+        flex-basis: 100%;
+    }
+    #showcase {
+        width: 100%;
+    }
 }
