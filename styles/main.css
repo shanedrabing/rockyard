@@ -97,7 +97,7 @@ body {
     width: 65%;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 64em) {
     .navigation ul {
         flex-wrap: wrap;
     }
@@ -109,7 +109,7 @@ body {
     }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 32em) {
     .navigation li {
         flex-basis: 100%;
     }
