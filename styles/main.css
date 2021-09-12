@@ -104,7 +104,7 @@ body {
     padding-bottom: 5vh;
 }
 
-@media all and (max-width: 44em) {
+@media all and (max-width: 64em) {
     .navigation ul {
         flex-wrap: wrap;
     }
@@ -116,7 +116,7 @@ body {
     }
 }
 
-@media all and (max-width: 22em) {
+@media all and (max-width: 40em) {
     .navigation li {
         flex-basis: 100%;
     }
