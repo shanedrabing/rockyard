@@ -97,7 +97,6 @@ body {
 }
 
 .bottom {
-    /* width: 70%; */
     margin-left: auto;
     margin-right: auto;
     padding-top: 15vh;
@@ -116,9 +115,12 @@ body {
     }
 }
 
-@media all and (max-width: 40em) {
+@media all and (orientation: portrait) {
+    .navigation ul {
+        flex-wrap: wrap;
+    }
     .navigation li {
-        flex-basis: 100%;
+        flex: 1 1 100%;
     }
     #showcase {
         width: 100%;
