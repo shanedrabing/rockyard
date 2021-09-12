@@ -13,11 +13,12 @@
 
 .item {
     vertical-align: top;
-    flex: 3;
+    flex: 1 1 0;
+    flex-basis: 100%;
 }
 
 .item#padded {
-    padding: 3.5vh;
+    padding: 3.5%;
 }
 
 .item img {
