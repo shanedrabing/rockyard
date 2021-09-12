@@ -5,18 +5,19 @@
 }
 
 .row {
-    display: table;
-    border-collapse: collapse;
+    display: flex;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .item {
-    display: table-cell;
     vertical-align: top;
+    flex: 3;
 }
 
 .item#padded {
-    padding: 4%;
+    padding: 3.5vh;
 }
 
 .item img {
