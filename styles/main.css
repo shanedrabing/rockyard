@@ -69,10 +69,13 @@ body {
     padding: 2.5vh 2.5vh;
 }
 
+#subshowcase-detail h1, h2, p {
+    width: 65%;
+}
+
 #subshowcase-detail .navigation {
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
 }
 
 #subshowcase-detail hr {
@@ -85,7 +88,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 65%;
 }
 
 #subshowcase-detail p {
@@ -93,7 +95,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    width: 65%;
 }
 
 .map {
@@ -119,6 +120,18 @@ iframe {
     padding-bottom: 5vh;
 }
 
+.menu {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
 @media all and (max-width: 64em) {
     .navigation ul {
         flex-wrap: wrap;
@@ -128,6 +141,21 @@ iframe {
     }
     #showcase {
         width: 85%;
+    }
+    #subshowcase-detail h1, h2, p {
+        width: 80%;
+    }
+    .menu {
+        width: 85%;
+    }
+    .splash {
+        width: 60%;
+    }
+    .splash-v {
+        width: 50%;
+    }
+    .map {
+        padding-bottom: 55%;
     }
 }
 
@@ -140,5 +168,20 @@ iframe {
     }
     #showcase {
         width: 100%;
+    }
+    #subshowcase-detail h1, h2, p {
+        width: 95%;
+    }
+    .menu {
+        width: 100%;
+    }
+    .splash {
+        width: 70%;
+    }
+    .splash-v {
+        width: 60%;
+    }
+    .map {
+        padding-bottom: 70%;
     }
 }
