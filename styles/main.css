@@ -5,6 +5,24 @@ body {
     margin: 0;
 }
 
+/* links */
+
+a:link {
+    color: #7e0e0e;
+}
+
+a:visited {
+    color: #3e0303;
+}
+
+a:hover {
+    color: #7e0e0e;
+}
+
+a:active {
+    color: #7e0e0e;
+}
+
 .navigation a {
     background: #7e0e0e;
     color: white;
