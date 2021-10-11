@@ -97,8 +97,7 @@ a:active {
 }
 
 #subshowcase-detail hr {
-    padding: 5vh 0;
-    border: 0;
+    width: 65%;
 }
 
 #subshowcase-detail h1, h2 {
