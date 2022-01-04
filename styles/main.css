@@ -149,6 +149,11 @@ iframe {
     max-width: 100%;
 }
 
+.menu img.long {
+    max-width: 90%;
+    padding: 5%;
+}
+
 @media all and (max-width: 64em) {
     .navigation ul {
         flex-wrap: wrap;
