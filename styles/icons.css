@@ -21,10 +21,24 @@
     padding: 3.5%;
 }
 
+.item#image {
+    padding: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 0%;
+}
+
+.item#image img {
+    border-radius: 1em;
+}
+
 .item img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+p#caption {
+    text-align: center;
 }
 
 @media all and (max-width: 64em) {
