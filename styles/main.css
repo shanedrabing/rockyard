@@ -44,7 +44,7 @@ a:active {
 .button a {   
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .link-spanner {
