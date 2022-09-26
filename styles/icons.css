@@ -17,17 +17,17 @@
     flex-basis: 100%;
 }
 
-.item#padded {
+.item.padded {
     padding: 3.5%;
 }
 
-.item#image {
+.item.image {
     padding: 1%;
     padding-top: 1.5%;
     padding-bottom: 0%;
 }
 
-.item#image img {
+.item.image img {
     border-radius: 0.75em;
 }
 
