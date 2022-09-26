@@ -37,7 +37,7 @@
     height: auto;
 }
 
-p#caption {
+p.caption {
     text-align: center;
 }
 
