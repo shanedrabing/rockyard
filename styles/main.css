@@ -2,6 +2,7 @@ body {
     /* background-image: url("../data/woodgrain.jpg"); */
     /* background-size: cover; */
     background-color: black;
+    color: black;
     margin: 0;
 }
 
@@ -101,8 +102,12 @@ a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 3vh 0px;
+    padding: 3vh 3vh;
     width: 40%;
+}
+
+.rounded {
+    border-radius: 2.5em;
 }
 
 #showcase {
@@ -154,7 +159,8 @@ a:active {
 
 .map {
     position: relative;
-    padding-bottom: 40%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 iframe {
