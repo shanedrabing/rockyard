@@ -1,0 +1,29 @@
+.ShowHide {
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: yellow;
+    color: black;
+    padding: 1em;
+}
+
+#left {
+    overflow: hidden;
+    text-align: center;
+    height: 20px;
+}
+
+#right {
+    float: right;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+
+.ShowHide a {
+    color: black;
+    text-decoration: none;
+}
+
+.ShowHide a:hover {
+    text-decoration: underline;
+}
