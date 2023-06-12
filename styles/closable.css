@@ -1,5 +1,4 @@
 .ShowHide {
-    overflow: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: yellow;
     color: black;
@@ -7,15 +6,12 @@
 }
 
 #left {
-    overflow: hidden;
     text-align: center;
-    height: 20px;
 }
 
 #right {
     float: right;
-    width: 30px;
-    height: 20px;
+    width: 1em;
     text-align: center;
 }
 
